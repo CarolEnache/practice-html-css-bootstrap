@@ -38,20 +38,21 @@ h1, h2, h3 {
   background-color: #66ccff;
   text-align: center;
   color: white;
+  padding: 10px;
 
 }
 
 .content {
   padding: 10px;
 }
-.nav {
+.menu {
   width: 180px;
   float: left;
 }
-.nav, selected {
+.menu, selected {
   font-weight: bold;
 }
-.nav, ul {
+.menu, ul {
   list-style-type: none;
   padding: 0;
 }

@@ -1,8 +1,12 @@
 // Normalize Styles
 @import 'node_modules/normalize.css/normalize';
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'box';
+// @import 'node_modules/bootstrap/scss/bootstrap';
+
 
 // Import Modules
-@import '../_modules/link/link';
+// @import '../_modules/link/link';
 
 // Box sizing partial styles:
 // Apply a natural box layout model to all elements
@@ -27,11 +31,11 @@ h1, h2, h3 {
   margin: 0;
 }
 
-.container{
-  width: 800px;
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
+.container {
+  // width: 800px;
+  // background-color: white;
+  // margin-left: auto;
+  // margin-right: auto;
 }
 
 .header {
@@ -45,21 +49,30 @@ h1, h2, h3 {
 .content {
   padding: 10px;
 }
-.menu {
-  width: 180px;
-  float: left;
+.menu 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
 }
-.menu, selected {
-  font-weight: bold;
-}
-.menu, ul {
-  list-style-type: none;
-  padding: 0;
-}
+.menu
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
 
+}
+.menu
+  li a:hover{
+    background-color: #555;
+    color: white;
+  }
 .main {
-  float: right;
-  width: 600px;
+  // float: right;
+  // width: 600px;
 }
 
 .footer {
@@ -69,3 +82,4 @@ h1, h2, h3 {
   color: white;
   text-align: right;
 }
+

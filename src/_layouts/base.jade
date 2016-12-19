@@ -23,10 +23,17 @@ head
     link(rel='stylesheet', href= baseUrl + 'styles/main.css')
 
 body
- .container
-  include ../_modules/header
-  include ../_modules/menu
-  block content 
-  include ../_modules/footer
+ .container-fluid
+  .row
+      include ../_modules/header
+
+  .row
+    .col-md-3
+      include ../_modules/menu
+    .col-md-9
+      .main
+        block content 
+  include ../_modules/footer  
+
 
 </html>

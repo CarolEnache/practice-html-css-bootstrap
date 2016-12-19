@@ -1,0 +1,14 @@
+[
+	{
+		"link": "index.html",
+		"info": "home"
+	},
+	{
+		"link": "contact.html",
+		"info": "contact"
+	},
+	{
+		"link": "about.html",
+		"info": "about"
+	}
+]

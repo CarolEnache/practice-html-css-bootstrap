@@ -16,10 +16,15 @@
 
 body {
   background-color: #eee;
+  font-family: helvetice, arial; 
 }
 a {
   text-decoration: none;
   color: red;
+}
+
+h1, h2, h3 {
+  margin: 0;
 }
 
 .container{
@@ -47,7 +52,7 @@ a {
   font-weight: bold;
 }
 .nav, ul {
-  list-style-type: nome;
+  list-style-type: none;
   padding: 0;
 }
 
@@ -58,4 +63,8 @@ a {
 
 .footer {
   clear: both;
+  padding: 10px;
+  background-color: #999999;
+  color: white;
+  text-align: right;
 }

@@ -39,15 +39,32 @@ h1, h2, h3 {
 }
 
 .header {
-  background-color: #66ccff;
+  //background-color: #66ccff;
   text-align: center;
-  color: white;
-  padding: 10px;
+  //color: white;
+  //padding: 10px;
 
 }
-
+.background {
+  background: url(/images/UNADJUSTEDNONRAW_thumb_5fb.jpg) repeat;
+  border: 2px solid black;
+}
+.transbox {
+  //margin: 10px;
+  background-color: #FAF0E6;
+  border: 1px solid black;
+  opacity: 0.3;
+  filter: alpha(opacity=60);
+}
+.transbox h1 {
+  margin: 3%;
+  font-weight: bold;
+  color: black;
+  font-size: 80px;
+}
 .content {
   padding: 10px;
+  border-style: 1px solid black;
 }
 .menu 
   ul {
@@ -73,6 +90,7 @@ h1, h2, h3 {
 .main {
   // float: right;
   // width: 600px;
+
 }
 
 .footer {

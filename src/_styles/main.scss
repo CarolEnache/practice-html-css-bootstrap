@@ -100,4 +100,23 @@ h1, h2, h3 {
   color: white;
   text-align: right;
 }
+.responsivetable
+    table{
+      border-collapse: collapse;
+      width: 100%;
+}
+    th {
+      text-align: left;
+      background-color: black;
+      color:
+      white;
+      //padding: 2px;
+}
+    //td {
+      //text-align: left;
+      //padding: 45px;
+//}
+    //tr:nth-child(even){
+      //background-color: white;
+   // }
 

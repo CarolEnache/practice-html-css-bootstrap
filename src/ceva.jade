@@ -3,7 +3,7 @@ extends _layouts/base
 include _modules/link/link
 
 block content
-  table.tabelceva
+  table.tabelceva(style="width:100%")
     tr
       th first name
       th last name
@@ -21,4 +21,22 @@ block content
       td Clevendland
       td Brown
       td 250
+      br
+      br
+
+  hr
+  div.country
+    from(action="action_page.php")
+      label(for="fname") First Name
+      input(type="text" id="fname" name="firstname")
+
+      label(for="lname") Last Name
+      input(type="text" id="lname" name="lastname")
+
+      label(for="country") State
+      select(id="country" name="country")
+        option(value="australia") Australia
+        option(value="canada") Canada
+        option(value="usa") USA
+      input(type="submit" valuea="submit")
 

@@ -1,0 +1,26 @@
+.header {
+  //background-color: #66ccff;
+  text-align: center;
+  //position: fixed;
+  //top: 0;
+  //color: white;
+  //padding: 10px;
+
+}
+.background {
+  background: url(/images/IMG_0572.JPG);
+  border: 200px solid black;
+}
+.transbox {
+  //margin: 10px;
+  background-color: #FAF0E6;
+  border: 1px solid black;
+  opacity: 0.3;
+  filter: alpha(opacity=60);
+}
+.transbox h1 {
+  margin: 2%;
+  font-weight: bold;
+  color: black;
+  font-size: 80px;
+}

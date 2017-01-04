@@ -19,7 +19,7 @@
 }
 
 body {
-  background-color: #eee;
+  background-color: white;
   font-family: helvetice, arial; 
 }
 a {
@@ -38,69 +38,9 @@ h1, h2, h3 {
   // margin-right: auto;
 }
 
-.header {
-  //background-color: #66ccff;
-  text-align: center;
-  //position: fixed;
-  //top: 0;
-  //color: white;
-  //padding: 10px;
-
-}
-.background {
-  background: url(/images/UNADJUSTEDNONRAW_thumb_5fb.jpg) repeat;
-  border: 2px solid black;
-}
-.transbox {
-  //margin: 10px;
-  background-color: #FAF0E6;
-  border: 1px solid black;
-  opacity: 0.3;
-  filter: alpha(opacity=60);
-}
-.transbox h1 {
-  margin: 2%;
-  font-weight: bold;
-  color: black;
-  font-size: 80px;
-}
 .content {
   padding: 10px;
   border-style: 1px solid black;
-}
-.menu 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-}
-.menu
-  li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-
-}
-.menu
-  li a:hover{
-    background-color: #555;
-    color: white;
-  }
-//.main {
-  // float: right;
-  // width: 600px;
-
-//}
-
-.footer {
-  clear: both;
-  padding: 10px;
-  background-color: #999999;
-  color: white;
-  text-align: right;
 }
 .responsivetable
     table{
@@ -143,10 +83,107 @@ th, td {
     background-color: #4CAF50;
     color: white;
   }
+  .header {
+  //background-color: #66ccff;
+  text-align: center;
+  //position: fixed;
+  //top: 0;
+  //color: white;
+  //padding: 10px;
 
+}
+.background {
+  background: url(/images/UNADJUSTEDNONRAW_thumb_5fb.jpg);
+  border: 2px solid black;
+}
+.transbox {
+  //margin: 10px;
+  background-color: #FAF0E6;
+  border: 1px solid black;
+  opacity: 0.3;
+  filter: alpha(opacity=60);
+}
+.transbox h1 {
+  margin: 2%;
+  font-weight: bold;
+  color: black;
+  font-size: 80px;
+}
+.menu 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+.menu
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
 
+}
+.menu
+  li a:hover{
+    background-color: #555;
+    color: white;
+  }
+//.main {
+  // float: right;
+  // width: 600px;
 
+//}
 
+.yeogy {
+  background-image: url("yeogurt-swirl.png");
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+}
+.footer {
+  clear: both;
+  padding: 10px;
+  background-color: #999999;
+  color: white;
+  text-align: right;
+}
+.outset {
+  border-style: outset;
+  border-width: 2px 10px 4px 20px;
+}
+
+.country
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+.country
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.country
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+.country {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 
 
 

@@ -1,0 +1,32 @@
+extends _layouts/base
+
+include _modules/link/link
+
+block content
+  h1 CSS Fonts
+  hr
+  h2 Font Family
+  br
+  h3(style="font-family:Times New Roman, Times, serif") This text is shown in the Time New Roman font.
+  h3(style="font-family:Arial, Helvetica, sans-serif;") This text is shown in the Arial font.
+  hr
+  h2 Font Style
+  br
+  p(style="font-style:normal;") Thia paragaraph is normal style.
+  p(style="font-style:italic;") This paragraph is italic style.
+  p(style="font-style:oblique;") This paragraph is oblique style.
+  hr
+  h2 Set Font Size With Pixels
+  br
+  h3(style="font-size:40px;") This is heading 3
+  h4(style="font-size:30px;") This is heading 4
+  p(style="font-size:14px;") This is a paragraph
+  hr
+  h2 Set Font Size with Em
+  br
+  h3(style="font-size:2.5em;") This is h3 with 2.5em font-size.
+  h4(style="font-size:1.875em;") This is h4 with 1.875em font-size.
+  p(style="font-size:0.875em;") This is a paragraph with the font-size of 0.875em
+  p Specifying the font-size in em allows all major browsers to resize the text.
+  hr
+  h2(style="text-transform:capitalize;") use a combination of percent and em

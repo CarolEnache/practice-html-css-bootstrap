@@ -17,3 +17,46 @@
   border: 5px solid grey;
   margin: 0;
 }
+p.dotted { outline-style: dotted;}
+p.dashed { outline-style: dashed;}
+p.solid { outline-style: solid;}
+p.double { outline-style: double;}
+p.groove { outline-style: groove;}
+p.ridge { outline-style: ridge;}
+p.inset { outline-style: inset;}
+p.outset { outline-style: outset;}
+p.color {
+  border-color: 1px solid black;
+  outline-style: double;
+  outline-color: red; 
+}
+p.width1, p.width2 { border: 1px solid black}
+p.width1 {
+  outline-style: double;
+  outline-color: red;
+  outline-width: thick;
+}
+p.width2 {
+  outline-style: double;
+  outline-color: green;
+  outline-width: 3px;
+}
+.justiffy {
+  border: 1px solid black;
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+

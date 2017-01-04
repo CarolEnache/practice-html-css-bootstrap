@@ -1,0 +1,58 @@
+extends _layouts/base
+
+include _modules/link/link
+
+block content
+  h1 CSS Text Formatting
+  br
+  h2(style="background-color:yellow") Text Color
+  br
+  h3(style="color:blue") For thie heading i have used the inline CSS (style="color:blue")
+  p(style="color:green") For this paragraph I have used the inline css (style="color:green")
+  hr
+  h2(style="background-color:yellow") Text Alignment
+  br
+  h3(style="text-align:center") text-align: Center
+  h4(style="text-align:left") text-align: Left
+  h5(style="text-align:right") text-align: Right
+  hr
+  h2(style="background-color:yellow") Example text-align: justify
+  br
+  p The text-align: justify; value stretches the lines so that each line has equal width (like in newspapers and magazines)
+  div.justiffy In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'
+  hr
+  h2(style="background-color:yellow") Text Decoration
+  br
+  p A link with no underline:
+    a(href="http://www.w3schools.com" style="color:blue") W3Schools.com
+  p Text decoration used to decorate text:
+
+  h3(style="text-decoration:overline") text-decoartion Overline
+  h3(style="text-decoration:line-through") text-decoration line-through
+  h3(style="text-decoration:underline") text-decoration underline
+  hr
+  h2(style="background-color:yellow") Text Transformation
+  br
+  p(style="text-transform:uppercase") This text was transformed with text-trasform to uppercase
+  p(style="text-transform:capitalize") this text was transformed with text-transform to capitalize
+  hr
+  h2(style="background-color:yellow") Text Identation
+  br 
+  p(style="text-indent: 50px") In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'
+  hr
+  h2(style="background-color:yellow") Letter Spacing
+  br
+  h3(style="letter-spacing:3px;") This text is useing 3px letter-spacing
+  h3(style="letter-spacing:-3px;") This text is useing -3px letter-spacing
+  hr
+  h2(style="background-color:yellow") Text Direction
+  h3(style="direction:rtl;") This is right-to-left "rtl" text direction.
+  hr 
+  h2(style="background-color:yellow") Word Spacing
+  br
+  h3(style="word-spacing:10px;") Thsi text is useing word-spacig 10px
+  h3(style="word-spacing:-5px") This text is useing word-spacing -5px
+  hr
+  h2(style="background-color:yellow") Text Shadow
+  br
+  h3(style="text-shadow: 3px 2px red;") Text-shadow effect

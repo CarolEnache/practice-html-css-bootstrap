@@ -1,0 +1,64 @@
+extends _layouts/base
+
+include _modules/link/link
+
+block content
+  h1 CSS Links
+  br
+  hr
+  h2 Styling 
+  br
+  p
+    b
+      a(href="//http:www.google.co.uk" target="_blank" style="color:hotpink") This is a link
+      br
+      hr
+  h2 Advanced - Link Buttons
+  br
+  p Mouse over teh links and watch them change layout:
+  div.link1
+    a(href="default.asp" target="_blank") This Is a Link
+    hr
+  h2(style="text-transform:capitalize;") add difernet styles to hyperlinks
+  br
+  p
+    a.hlink1(href="default" target="_blank") This link changes color
+  p
+    a.hlink2(href="default" target="_blank") This link changes font-size
+  p
+    a.hlink3(href="default" target="_blank") This link changes background-color
+  p
+    a.hlink4(href="default" target="_blank") This link changes font-family
+  p
+    a.hlink5(href="default" target="_blank") This link changes text-decoration
+  hr
+  h2(style="text-transform:capitalize") create a link button with borders
+  br
+  a.borderlink(href="default.asp" target="_blank") This is a link
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

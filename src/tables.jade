@@ -1,0 +1,56 @@
+extends _layouts/base
+
+include _modules/link/link
+
+block content
+  h1 CSS Tables
+  br 
+  hr
+  h2 Table Borders
+  br
+  table.borders
+    tr 
+      th First Name
+      th Last Name
+    tr 
+      td Petter
+      td Griffin
+    tr
+      td Lois
+      td Griffin
+  hr
+  h2(style="text-transform:capitalize") table width and height
+  p Set the width of the table, and the height of the table header row:
+
+  table
+    tr
+      th First Name
+      th Last Name
+      th Savings
+    tr
+      td Peter
+      td Griffin
+      td $100
+    tr
+      td Lois
+      td Griffin
+      td $150
+    tr
+      td Joe
+      td Swanson
+      td $ 300
+    tr
+      td Clevelan
+      td Brown
+      td $ 250
+
+
+
+
+
+
+
+
+
+
+

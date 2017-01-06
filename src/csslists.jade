@@ -1,0 +1,87 @@
+extends _layouts/base
+
+include _modules/link/link
+
+block content
+  h1(style="text-align:center") CSS Lists
+  br 
+  hr
+  h2 Differrent list item markers
+  p Example of unordered lists:
+  ul.unordered1(style="list-style-type:circle;")
+    li Coffee
+    li Tea
+    li Coca Cola
+  ul.unordered2(style="list-style-type:squqre;")
+    li Coffee
+    li Tea
+    li Coca Cola
+  p Example of ordered lists:
+  ol.ordered1(style="list-style-type:upper-roman;")
+    li Coffee
+    li Tea
+    li Coca cola
+  ol.ordered2(style="list-style-type:lower-alpha;")
+    li Coffee
+    li Tea
+    li Coca Cola
+  hr
+  h2(style="text-transform:capitalize;") an image as the list item marker:
+  br
+  ul(style="list-style-image:url(/images/yeogurt-swirl.png)")
+    li Coffee
+    li Tea
+    li  Coca cola
+  hr
+  h2(style="text-transform:capitalize") position the list item markers
+  p The following list has list-style-position:inside :
+  ul(style="list-style-position:inside")
+    li Coffee
+    li Tea
+    li Coca Cola
+  p The folloing list has list-style-position:outsude :
+  ul(style="list-style-position:outside")
+    li Coffee
+    li Tea
+    li Coca Cola
+  hr
+  h2(style="text-transform:capitalize") styling list with colors
+
+  ol.oslist
+    li Coffee
+    li Tea
+    li Coca Cola
+
+  ul.uslist
+    li Coffee
+    li Tea
+    li Coca Cola
+  hr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

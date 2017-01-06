@@ -1,0 +1,47 @@
+.link1
+  a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    display: inline-block;
+  }
+.link1
+  a:hover, a:active {
+    background-color: red;
+  }
+a.hlink1:link { color:default;}
+a.hlink1:visited {color:#0000ff;}
+a.hlink1:hover { color:#ffcc00}
+
+a.hlink2:link { color:default;}
+a.hlink2:visited {color:#0000ff;}
+a.hlink2:hover { font-size: 150%;}
+
+a.hlink3:link { color:default;}
+a.hlink3:visited {color:#0000ff;}
+a.hlink3:hover {background-color: #66ff66;}
+
+a.hlink4:link { color:default;}
+a.hlink4:visited {color:#0000ff;}
+a.hlink4:hover {font-family: monospace;}
+
+a.hlink5:link { color:default;text-decoration: none;}
+a.hlink5:visited {color:#0000ff;text-decoration: none;}
+a.hlink5:hover {text-decoration: underline;}
+
+
+  a.borderlink:link, a.borderlink:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a.borderlink:hover, a.borderlink:active {
+    background-color: black;
+    color: white;
+  }

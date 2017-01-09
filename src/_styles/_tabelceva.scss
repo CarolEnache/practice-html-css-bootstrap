@@ -1,34 +1,152 @@
-.tabelceva
-  table {
+#tabelceva {
     border-collapse: collapse;
     width: 100%;
   }
 
-.tabelceva
-th, td {
+#tabelceva th, 
+#tabelceva td {
   text-align: left;
   padding: 8px;
 }
 
-.tabelceva
+#tabelceva
   tr:nth-child(even){background-color: #f2f2f2}
 
 
-.tabelceva
-  th {
+#tabelceva th {
     background-color: black;
     color: white;
   }
-table.borders {
+#borders {
   border:1px solid black;
 }
 
-.borders 
-  th {
+#borders th {
   border:1px solid black;
 }
-.borders
-  td {
+#borders td {
   border:1px solid black;
 }
+#tablewp td, 
+#tablewp th {
+  border: 1px solid black;
+}
+
+#tablewp {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tablewp th {
+  height: 50px;
+}
+
+#tableha td,
+#tableha th {
+  border: 1px solid black;
+}
+
+#tableha {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tableha th {
+  text-align: right;
+}
+
+#tableva td,
+#tableva th {
+  border: 1px solid black;
+}
+
+#tableva {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tableva td {
+  height: 50px;
+  vertical-align: bottom;
+}
+
+#tabletp td,
+#tabletp th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+#tabletp {
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+#tabletp th,
+#tabletp td {
+  padding: 15px;
+}
+
+#tableht {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tableht th,
+#tableht td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#tableht tr:hover{background-color:#f5f5f5}
+
+#tablest {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tablest th,
+#tablest td {
+  text-align: left;
+  padding: 8px;
+}
+
+#tablest tr:nth-child(even){background-color: #f2f2f2}
+
+#tabletc {
+  border-collapse: collapse;
+  width: 100%;
+}
+#tabletc th,
+#tabletc td {
+  text-align: left;
+  padding: 8px;
+}
+#tabletc tr:nth-child(even){background-color: #f2f2f2}
+#tabletc th {
+  background-color: #4caf50;
+  color: white;
+}
+.responsive
+  #tablert {
+      border-collapse: collapse;
+      width: 100%;
+  }
+  #tablert th,
+  #tablert td {
+      text-align: left;
+      padding: 8px;
+  }
+
+  #tablert tr:nth-child(even){background-color: #f2f2f2}
+
+
+
+
+
+
+
+
+
 

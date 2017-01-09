@@ -1,0 +1,19 @@
+
+extends _layouts/base
+
+include _modules/link/link
+
+block content
+  h1(style="text-transform:capitalize") CSS layout - the disolay property
+  hr
+  h2(style="text-transform:capitalize") override the default display value
+  br
+  p Display a list of links as a horizontal menu:
+  ul(id="override")
+    li 
+      a(href="http://wwww.google.co.uk" target="_blank") Google
+    li
+      a(href="http://wwww.facebook.com" target="_blank") Facebook
+    li
+      a(href="http://wwww.yahoo.com" target="_blank") Yahoo
+

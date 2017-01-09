@@ -1,13 +1,13 @@
-.link1
-  a:link, a:visited {
+.link1 a:link, 
+.link1 a:visited {
     background-color: #f44336;
     color: white;
     padding: 14px 25px;
     text-decoration: none;
     display: inline-block;
   }
-.link1
-  a:hover, a:active {
+.link1 a:hover, 
+.link1 a:active {
     background-color: red;
   }
 a.hlink1:link { color:default;}
@@ -31,7 +31,8 @@ a.hlink5:visited {color:#0000ff;text-decoration: none;}
 a.hlink5:hover {text-decoration: underline;}
 
 
-  a.borderlink:link, a.borderlink:visited {
+  a.borderlink:link, 
+  a.borderlink:visited {
     background-color: white;
     color: black;
     border: 2px solid green;
@@ -41,7 +42,8 @@ a.hlink5:hover {text-decoration: underline;}
     display: inline-block;
   }
 
-  a.borderlink:hover, a.borderlink:active {
+  a.borderlink:hover, 
+  a.borderlink:active {
     background-color: black;
     color: white;
   }

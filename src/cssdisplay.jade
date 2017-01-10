@@ -16,4 +16,35 @@ block content
       a(href="http://wwww.facebook.com" target="_blank") Facebook
     li
       a(href="http://wwww.yahoo.com" target="_blank") Yahoo
+  hr
+  h2 Difference between display:none and visibility:hidden
+  p 
+  b visibility:hidden 
+  | hides the element, but it still takes up space in the layout. 
+  p 
+  b display:none 
+  | removes the element from the document. It dose not take up any space.
+  .imgbox(id="imgbox1") Box 1
+    img(src="/images/UNADJUSTEDNONRAW_thumb_5fb.jpg" alt="poza" style="width:100%")
+    button(onclick="removeElement()" style="width:100%") Remove
+  .imgbox(id="imgbox2") Box 2
+    img(src="/images/UNADJUSTEDNONRAW_thumb_5fb.jpg" alt="poza" style="width:100%")
+    button(onclick="removeElement()" style="width:100%") Hide
+  .imgbox(id="imgbox3") Box 3
+    img(src="/images/UNADJUSTEDNONRAW_thumb_5fb.jpg" alt="poza" style="width:100%")
+    button(onclick="removeElement()" style="width:100%") Reset All
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

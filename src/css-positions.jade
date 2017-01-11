@@ -32,16 +32,43 @@ block content
   .relative2 This div element has position: relative;
     .absolute This div element has position: absolute;
   hr
-  h2(style="margin:50px; text-align:left; background-color: red") z-index of -1
-  //  the text is not in the same allignment with the rest of the headings
-  br
-  h3(style="color:grey") This is a heading
-  img(src="/images/UNADJUSTEDNONRAW_thumb_5fb.jpg" width="140" height="140" id="zindex2")
-  //position of the picture is not as expected if I use the podition: absolute; value 
-  p(style="color:grey") Because the image has a z-index of -1, it will be placed behind the text.
+  .zindex1  
+    h2(style="text-align:left;") z-index of -1
+    br
+    h3(style="color:lightblue") This is a heading
+    .zindex2
+      img(src="/images/UNADJUSTEDNONRAW_thumb_5fb.jpg" width="140" height="140")
+    p(id="paragraphzindex" ) Because the image has a z-index of -1, it will be placed behind the text.
   hr
-  h2 clip: rect(0px; 60px; 200px; 0;)
-  img(src="/images/UNADJUSTEDNONRAW_thumb_5fb.jpg" width="140" height="140" id="clip1")
+  .clip1  
+    h2(style="background-color:red") clip: rect(0px; 60px; 200px; 0;)
+    .clip2
+      img(src="/images/UNADJUSTEDNONRAW_thumb_5fb.jpg" width="140" height="140")
+  hr
+  h2(style="text-transform:capitalize") positioning text in an image:
+  .positioningtext
+    img(src="/images/UNADJUSTEDNONRAW_thumb_5fb.jpg" width="1000" height="700" id="positionpic")
+    .topleft Top Left
+    .topright Top Right
+    .centered Centered
+    .bottomleft Bottom Left
+    .bottomright Bottom Right
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

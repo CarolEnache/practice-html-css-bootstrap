@@ -51,20 +51,73 @@
   height: 100px;
   border: 3px solid #73ad21;
 }
-#zindex2 {
-  //position: absolute;
-  left: 0px;
-  bottom: 0px;
-  z-index: -1;
-  border: 1px solid red;
+.zindex1{
+  position: relative;
+  width: 1000px;
+  height: 200px;
 }
-#clip1 {
+
+.zindex2 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+    border: 1px solid red;
+}
+#paragraphzindex {
+  color: lightblue;
   position: absolute;
-  clip: rect(0px,60px,200px,0px)
+  bottom: 0;
 }
-
-
-
+.clip1 {
+  position: relative;
+  width: 1000px;
+  height: 200px;
+}
+.clip2 {
+  position: absolute;
+  clip: rect(0px,60px,200px,0px);
+}
+.positioningtext {
+  position: relative;
+}
+#positionpic {
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+}
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 38px;
+}
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 38px;
+}
+.centered {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 38px;
+}
+.bottomleft {
+  position: absolute;
+  bottom: 18px;
+  left: 16px;
+  font-size: 38px;
+}
+.bottomright {
+  position: absolute;
+  bottom: 18px;
+  right: 16px;
+  font-size: 30px;
+}
 
 
 

@@ -1,0 +1,74 @@
+.box {
+	height: 650px;
+	overflow: hidden;
+	border: 1px solid blue;
+	overflow-y: scroll;
+}
+.theboxmodel1 {
+  background-color: lightgrey;
+  width: 50%;
+  border: 25px solid green;
+  padding: 25px;
+  margin: 25px;
+}
+.theboxmodel2 {
+  width: 350px;
+  padding: 10px;
+  border: 5px solid grey;
+  margin: 0;
+}
+.static1 {
+  position: static;
+  border: 3px solid #73ad21;
+  max-width: 450px;
+  text-align: center;
+}
+.relative1 {
+  position: relative;
+  left: 30px;
+  border: 3px solid #73ad21;
+  max-width: 450px;
+  text-align: center;
+}
+.fixed1{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 450px;
+  border: 3px solid #73ad21;
+}
+.relative2 {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73ad21;
+}
+.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73ad21;
+}
+#zindex2 {
+  //position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: -1;
+  border: 1px solid red;
+}
+#clip1 {
+  position: absolute;
+  clip: rect(0px,60px,200px,0px)
+}
+
+
+
+
+
+
+
+
+
+

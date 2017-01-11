@@ -1,0 +1,56 @@
+
+extends _layouts/base
+
+include _modules/link/link
+
+block content
+  h1 CSS-layout - The position Property
+  hr
+  h2 position:static
+  br
+  p An element with 
+    b position:static; 
+    |is not positioned in any special way; it is always positioned according to the normal flow of the page
+  .static1 This div element has position:static;
+  hr
+  h2 position:relative;
+  br
+  p An element with position:relative; is positioned relative to its normal position:
+
+  .relative1 This div element has position:relative;
+  hr
+  h2 position:fixed;
+  p An element with 
+    b position: fixed;
+    | is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled;
+  .fixed1 This div element has position: fixed;
+  hr
+  h2 position:absolute
+  p An element with 
+    b position: absolute;
+    | is relative to the neast positioned ancstor (instead of positioned relative to the viewport, like fixed)
+  .relative2 This div element has position: relative;
+    .absolute This div element has position: absolute;
+  hr
+  h2(style="margin:50px; text-align:left; background-color: red") z-index of -1
+  //  the text is not in the same allignment with the rest of the headings
+  br
+  h3(style="color:grey") This is a heading
+  img(src="/images/UNADJUSTEDNONRAW_thumb_5fb.jpg" width="140" height="140" id="zindex2")
+  //position of the picture is not as expected if I use the podition: absolute; value 
+  p(style="color:grey") Because the image has a z-index of -1, it will be placed behind the text.
+  hr
+  h2 clip: rect(0px; 60px; 200px; 0;)
+  img(src="/images/UNADJUSTEDNONRAW_thumb_5fb.jpg" width="140" height="140" id="clip1")
+
+
+
+
+
+
+
+
+
+
+
+

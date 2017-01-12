@@ -11,6 +11,7 @@
 @import 'cssdisplay';
 @import 'max-width';
 @import 'css-positions';
+@import 'leftbox';
 
 
 // @import 'node_modules/bootstrap/scss/bootstrap';
@@ -129,5 +130,18 @@ h1 {
 #override li {
   display: inline;
 }
-
-
+.bravo {
+  text-transform: capitalize;
+}
+hr {
+  clear: both;
+}
+.desc {
+  display: none;
+}
+.show-content:checked + .desc {
+  display: block;
+}
+.cnt {
+  padding-top: 23px;
+}

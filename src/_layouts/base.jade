@@ -26,21 +26,21 @@ head
   
   block stylesheets
     link(rel='stylesheet', href= baseUrl + 'styles/main.css')
+  block scripts
+    script(src= baseUrl + 'scripts/main.js')
 
 body
  .container-fluid
   .row
       include ../_modules/header
-
-  .row
+      include ../_modules/menu      
+  .row.cnt
     .col-md-3
-      include ../_modules/menu
+      include ../_modules/left
     .col-md-9
       .main
       block content 
   include ../_modules/footer  
-  block scripts
-    script(src= baseUrl + 'scripts/main.js')
 
 
 </html>

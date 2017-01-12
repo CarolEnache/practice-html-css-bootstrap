@@ -128,18 +128,19 @@
   background-color: #4caf50;
   color: white;
 }
-.responsive
-  #tablert {
+#tablert {
       border-collapse: collapse;
       width: 100%;
+      overflow: scroll;
+      display: inline-block;
   }
-  #tablert th,
-  #tablert td {
-      text-align: left;
-      padding: 8px;
-  }
+#tablert th,
+#tablert td {
+    text-align: left;
+    padding: 8px;
+}
 
-  #tablert tr:nth-child(even){background-color: #f2f2f2}
+#tablert tr:nth-child(even){background-color: #f2f2f2}
 
 
 

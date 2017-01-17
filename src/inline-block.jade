@@ -1,0 +1,46 @@
+
+extends _layouts/base
+
+include _modules/link/link
+
+block content
+  h1.bravo CSS layout - inline-block
+  hr 
+  h2 Examples:
+  p The old way - using
+    mark(style="color:red;background-color:#fff;")
+    code float
+    |(notice that we also need to specify a 
+    mark(style="color:red;background-color:#fff;")
+    code clear
+    | property fo the element after the floating boxes):
+
+  div.floating-box Floating Box 
+  div.floating-box Floating Box
+  div.floating-box Floating Box 
+  div.floating-box Floating Box
+  div.floating-box Floating Box
+  div.floating-box Floating Box
+  div.floating-box Floating Box
+  div.floating-box Floating Box
+  div.after-box Another box, after the floating boxes...
+  br
+  p The same effect can be achived by using the
+    mark(style="color:red;background-color:#fff;")
+    code inline-block
+    | value of the the 
+    mark(style="color:red;background-color:#fff;")
+    code display 
+    | property notice that no 
+    mark(style="color:red;background-color:#fff;")
+    code clear  
+    | property is needed 
+  div.floating-boxex Floating Box 
+  div.floating-boxex Floating Box
+  div.floating-boxex Floating Box 
+  div.floating-boxex Floating Box
+  div.floating-boxex Floating Box
+  div.floating-boxex Floating Box
+  div.floating-boxex Floating Box
+  div.floating-boxex Floating Box
+  div.after-boxex Another box, after the floating boxes...

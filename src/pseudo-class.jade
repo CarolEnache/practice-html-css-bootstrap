@@ -1,0 +1,73 @@
+
+extends _layouts/base
+
+include _modules/link/link
+
+block content
+  h1 CSS Pseuso-class
+  hr
+  h2 What are Pseudo-classes?
+  br
+  p Apseudo-class is used to define a special state of an element.
+  br
+  p For example, it can be used to:
+  ul
+    li Style an element when a user mouses over it
+    li Style visited and unvisited links diffrently 
+    li Style an element when it gets focus
+  hr
+  h2 Anchor Pseudo-class
+  br
+  p Links cand be dislplayed in different ways:
+  h3 Example
+  br
+  p
+    b
+      a.pseudo(href="http//:www.google.com" target="_blank") This is a Link 
+  p
+    b Note:
+    | a:hover MUST come afteer a:link and a:visited in the CSS definitions in order to be effective.
+  hr
+  h2 Hover on div
+    mark(style="color:red;background-color:#fff;")
+    code :hover
+    |pseudo-class on a div element:
+  br
+  p Mouse over the div element below to change otd background color:
+  div.psclh Move Over Me
+  hr
+  h2.bravo simple tooltip hover 
+  br
+  p hover over a div element to show a p element (like a tooltip)
+  div.psclt Hover over me to show p element.
+    p(id="tada") Tada! Here I am!
+  hr
+  h2 CSS The :first-child Pseudo-class
+  br 
+  p The 
+    mark.mark
+    code :first-child 
+    | pseudo-class matches a specifiesd element that is the first child of another element 
+  p this is some text
+  p this is some more text
+  p and some more here
+  p(style="color:red") 
+    b for some reson not working... neet to fix it 
+  hr 
+  h2 Match all i elements in all first child p elements
+  br
+  p I am a 
+    i strong 
+    | person.
+  p I am a 
+    i strong 
+    | person.
+  p I am a 
+    i strong 
+    | person.
+  p I am a 
+    i strong 
+    | person.
+  p I am a 
+    i strong 
+    | person.

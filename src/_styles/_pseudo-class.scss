@@ -1,0 +1,33 @@
+a.pseudo:link {
+  color: red;
+}
+a.pseudo:visited {
+  color: green;
+}
+a.pseudo:hover {
+  color: hotpink;
+}
+a.pseudo:active {
+  color: blue;
+}
+div.psclh {
+  background-color: green;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+div.psclh:hover {
+  background-color: blue;
+
+}
+#tada {
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+div.psclt:hover #tada {
+  display: block;  
+}
+p:first-child i {
+  color: blue;
+}

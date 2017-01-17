@@ -1,0 +1,80 @@
+extends _layouts/base
+
+include _modules/link/link
+
+block content
+  h1 CSS Layout - flat and clear
+  hr
+  h2.bravo the float property
+  p In the exaple, the image will float to the right in the paragraph, and the text in the right will wrap around the image.
+
+  p 
+    img(src="/images/UNADJUSTEDNONRAW_thumb_5fb.jpg" alt="poza" style="width:140px;heigth:140px" id="float1") 
+    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. 
+  hr
+  h2.bravo the clear property
+  br
+  h3 Without clear
+  div.clear1 clear 1
+  div.clear2 clear 2 - notice that the clear2 element is after clear 1, in the HTML code. However, since clear 1 is floated to the left around clear 1, and clear 2 sourrunds the whole thing.
+  br
+  h3 Using clear
+  div.clear3 clear 3
+  div.clear4 clear 4 - using cleat move clear 4  doon below the float clear 3. The value "left" clear "right" and both. gegege
+  hr
+
+  h2.bravo clearfix hack
+
+  p In the example, the image is teller then the element containing it, and if is floated, so it overflows outside of its container
+  div.hack
+    img.img1(src="/images/UNADJUSTEDNONRAW_thumb_5fb.jpg" alt="poza" width="140" heigth="140")
+    |Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...
+
+  p(style="clear:right") Add a celarfix classwith overflow: auto; to the containing element, to fix this problem:
+
+  div.clearfixex
+    img.img2(src="/images/UNADJUSTEDNONRAW_thumb_5fb.jpg" alt="poza" width="140" heigth="140") 
+    |Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...
+  hr
+  h2.bravo web layot example:
+  br
+  .containerex
+    .headerex
+      h2 China
+    .clearfix
+      div.menuex.columnex
+        ul
+          li The Flight
+          li The City
+          li The Island
+          li The Food
+      div.contentex.columnex
+        h2 The City
+        p Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.
+        p You will learn more about web layout and responsive web pages in a later chapter.
+    .footerex
+      p Footer Text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

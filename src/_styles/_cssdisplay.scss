@@ -12,6 +12,21 @@
   margin: 4px;
   padding: 6px;
 }
+.bravo {
+  text-transform: capitalize;
+}
+hr {
+  clear: both;
+}
+.desc {
+  display: none;
+}
+.show-content:checked + .desc {
+  display: block;
+}
+.cnt {
+  padding-top: 23px;
+}
 
 
 

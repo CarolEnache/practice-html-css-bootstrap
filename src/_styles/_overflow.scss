@@ -1,0 +1,30 @@
+#visibleof {
+  background-color: #eee;
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  overflow: visible;
+}
+.visiblecnt {
+  position: relative;
+  width: 1000px;
+  height: 250px;
+}
+#hiddenof {
+  background-color: #eee;
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+#scrollof {
+  background-color: #eee;
+  width: 200px;
+  height: 50px;
+  //border: 1px solid black;
+  border-style: inset;
+  overflow: scroll;
+}
+
+
+

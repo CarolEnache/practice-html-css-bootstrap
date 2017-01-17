@@ -12,33 +12,15 @@
 @import 'max-width';
 @import 'css-positions';
 @import 'leftbox';
+@import 'overflow';
+@import 'float';
 
-
-// @import 'node_modules/bootstrap/scss/bootstrap';
-
-
-// Import Modules
-// @import '../_modules/link/link';
-
-// Box sizing partial styles:
-// Apply a natural box layout model to all elements
-*,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
 body {
   background-color: white;
-  font-family: Arial, Helvetica, sans-serif; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px; 
 }
-//a {
-  //text-decoration: none;
-  //color: red;
-//}
-
 h1, h2, h3 {
   margin: 0;
 }
@@ -46,102 +28,21 @@ h1 {
   text-align: center;
   }
 
-.container {
-  // width: 800px;
-  // background-color: white;
-  // margin-left: auto;
-  // margin-right: auto;
-}
-
 .content {
   padding: 10px;
   border-style: 1px solid black;
-}
-.responsivetable
-    table{
-      border-collapse: collapse;
-      width: 100%;
-}
-.responsivetable
-    th {
-      text-align: left;
-      background-color: black;
-      color:
-      white;
-      padding: 2px;
-}
-    //td {
-      //text-align: left;
-      //padding: 45px;
-//}
-    //tr:nth-child(even){
-      //background-color: white;
-   // }
-
-//}
-//.main {
-  // float: right;
-  // width: 600px;
-
-//}
-
-.yeogy {
-  background-image: url("yeogurt-swirl.png");
-  background-position: right top;
-  margin-right: 200px;
-  background-attachment: fixed;
 }
 .outset {
   border-style: outset;
   border-width: 2px 10px 4px 20px;
 }
 
-.country
-  input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-.country
-  input[type=submit] {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-.country
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-.country {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
 #override li {
   display: inline;
 }
-.bravo {
-  text-transform: capitalize;
-}
-hr {
-  clear: both;
-}
-.desc {
-  display: none;
-}
-.show-content:checked + .desc {
-  display: block;
-}
-.cnt {
-  padding-top: 23px;
-}
+
+
+
+
+
+

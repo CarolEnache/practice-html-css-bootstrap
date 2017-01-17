@@ -1,0 +1,24 @@
+
+extends _layouts/base
+
+include _modules/link/link
+
+block content
+  h1 CSS Overflow
+  hr
+  .visiblecnt
+    h2 Visible:
+    p By default, the overfolw is a visible, meaning that it is not clipped and it renders outside the element's box:
+
+    div(id="visibleof") Tou can use the overflow property when you want to have better contron of the layout. The overflow property specifies what happens if the content overflows an elemnet's box.
+  hr
+  h2 Hidden
+  p Whith the hidden value, the overflow is clipped, and the rest of the content is hidden
+
+  div(id="hiddenof") you van use the overflow propeerty whrn you want to habe better control of the layout. the overflow property specifies what happens if content overflows an element's box.
+  hr
+  h2 Scroll
+  p Setting the overflow value to scroll, the overflow is clipped and a scrollbar is added to scroll inside the box.
+
+  div(id="scrollof") You can use yhe overflow property when you want to have better contron of the layout. The overflow property specifies what happens if content overflows an element's box.
+  hr

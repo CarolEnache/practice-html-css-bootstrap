@@ -1,0 +1,22 @@
+p.fe::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+  }
+p.fl::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+p.mfe::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+p.mfe::first-line {
+  color: #0000ff;
+  font-variant: small-caps;
+}
+h3.be::before {
+  content: url(/images/yeogurt-swirl.png)
+}
+h3.ae::after {
+  content: url(/images/yeogurt-swirl.png)
+}

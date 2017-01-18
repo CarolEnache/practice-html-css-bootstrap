@@ -11,7 +11,7 @@ a.pseudo:active {
   color: blue;
 }
 div.psclh {
-  background-color: green;
+  background-color: red;
   color: white;
   padding: 25px;
   text-align: center;
@@ -28,6 +28,13 @@ div.psclh:hover {
 div.psclt:hover #tada {
   display: block;  
 }
-p:first-child i {
+div.psclt p {
+  color: red;
+}
+
+p i:first-child {
   color: blue;
+}
+input:focus {
+  background-color: yellow;
 }

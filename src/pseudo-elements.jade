@@ -1,0 +1,66 @@
+extends _layouts/base
+
+include _modules/link/link
+
+block content
+  h1 CSS Pseudo-element
+  hr
+  h2.bravo what are pseudo-element?
+  br
+  p A CSS pseudo-elemet is used to style specified parts of an element.
+  br
+  p For example, it can be used to:
+  ul
+    li Style the first letter, or line, of an eleemnt
+    li Insert content before, or after, the content of an element
+
+  hr 
+  h2 The ::fierst-line pseudo-element
+  br
+  p The following example formats the first line of the text in all p elements:
+
+  p.fe You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.
+  hr
+  h2 The 
+    mark 
+    code ::first-letter  
+    | Pseudo-elemet
+  br
+  p The
+    mark.bravo
+    code ::first-letter
+    | pseudo-eleemt is used to add a special style to the the first letter of a text.
+  p.fl You can use the ::first-letter pseudo-element to add a special effect to the first character of a text!
+  hr
+  h2 Multiple Pseudo-eleemts
+  br
+  p Several pseudo-elements can also be combined.
+  p.mfe You can combine the ::first-letter and ::first-line pseudo-elements to add a special effect to the first letter and the first line of a text!
+  hr
+  h2 CSS - The 
+    mark.mark
+    code ::before 
+    | Pseudo-element
+  br
+  h3.be This is a heading
+  p The ::before pseudo-element inserts content before the content of an element.
+  h3.be This is another heading
+  p IE8 supports the content property only if a !DOCTYPE is specified.
+  
+  hr
+  h2 The 
+    mark
+    code ::after
+    | Pseudo-element
+  br
+  h3.ae This is a heading
+  p The ::before pseudo-element inserts content before the content of an element.
+  h3.ae This is another heading
+  p IE8 supports the content property only if a !DOCTY
+  hr
+  h2 CSS - The 
+    mark
+    code ::selection 
+    | Pseudo-element
+
+

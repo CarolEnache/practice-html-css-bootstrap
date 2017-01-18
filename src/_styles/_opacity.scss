@@ -6,3 +6,47 @@ img.op2 {
   opacity: 0.5;
   filter: alpha(opacity=50)
 }
+img.ho {
+  opacity: 0.5;
+}
+img.ho:hover {
+  opacity: 1;
+}
+div.tb,
+div.first,
+div.second,
+div.third {
+  background-color: #4caf50;
+  padding: 10px;
+}
+div.first {
+  opacity: 0.1;
+}
+div.second {
+  opacity: 0.3;
+}
+div.third {
+  opacity: 0.6;
+}
+div.tb2,
+div.first2,
+div.second2,
+div.third2 {
+  background-color: rgb(76, 175, 80);
+  padding: 10px;
+}
+.backgroundop {
+  background: url(/images/yeogurt-swirl.png) repeat;
+  border: 2px solid black;
+}
+.transboxop {
+  margin: 30px;
+  background-color: #fff;
+  border: 1px solid black;
+  opacity: 0.6
+}
+.transboxop p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000;
+}

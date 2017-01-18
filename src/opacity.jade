@@ -14,3 +14,65 @@ block content
   img(src="/images/UyaRaJ26S3C0YCmPrPxcKQ_thumb_135.jpg" alt="poza" width="650" heigth="550")
   p Opacity 1 (default)
   hr
+  h2.bravo transparent hover effect:
+  br
+  p The opacity property is ofeten used together with the 
+    mark
+    code :hover 
+    | selector to change the opacity on mouse-over
+
+  img.ho(src="/images/UNADJUSTEDNONRAW_thumb_12b.jpg" alt="poza" width="370" heigth="200" style="margin:20px") 
+  img.ho(src="/images/UNADJUSTEDNONRAW_thumb_130.jpg" alt="poza" width="370" heigth="200" style="margin:20px")
+  img.ho(src="/images/UNADJUSTEDNONRAW_thumb_13a.jpg" alt="poza" width="370" heigth="200" style="margin:20px")
+  hr
+  h2 Transparent Box
+  br
+  p When using the 
+    mark
+    code opacity 
+    | property to add transparancy to the background of an element, all of its child elements become transparent as well. This can make the text inside a fully transparent element hard to read:
+  div.first Opacity 0.1
+  div.second Opacity 0.3
+  div.third Opacity 0.6
+  div.tb Opacity 1 (default)
+  hr
+  h2 Transparancy using RGBA
+  p Is you do not want to apply opacity to child elements, like in  our example above, use 
+    b RGBA
+    | color values. The following example sets the opaciry for the background color and not the text:
+  div.first2(style="background-color:rgba(76, 175, 80, 0.1)") 10% Opacity 
+  div.second2(style="background-color:rgba(76, 175, 80, 0.3)") 30% Opacity 
+  div.third2(style="background-color:rgba(76, 175, 80, 0.6)") 60% Opacity
+  div.tb2 Opacity 1 (default)
+  hr
+  h2 Text in Transparent Box
+  br
+  .backgroundop
+    .transboxop
+      p This is some text that is placed in the transparent box.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

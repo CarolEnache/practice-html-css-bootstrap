@@ -1,7 +1,7 @@
 .box {
   height: auto;
   overflow: hidden;
-  border: 1px solid blue;
+  // border: 1px solid blue;
   overflow-y: scroll;
   display: none;
   background-color: white;
@@ -21,18 +21,27 @@
   border: 5px solid grey;
   margin: 0;
 }
-.show-menu:checked + ul {
-  display: block;
-}
 .show-menu {
   display: none;
+  &:checked + ul {
+    display: block;
+  }
+}
+
+a {
+  // color: white;
 }
 
 
-
-
-
-
+input[type="radio"] {
+  display: none;
+  &:checked + .menu-vertical {
+    display: inherit;
+  }
+}
+.menu-vertical {
+  display: none;
+}
 
 
 
